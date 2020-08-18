@@ -8,3 +8,7 @@ WHERE students.end_date IS NULL
 GROUP BY student
 HAVING AVG(assignment_submissions.duration) < AVG(assignments.duration)
 ORDER BY AVG(assignment_submissions.duration);
+
+
+
+
